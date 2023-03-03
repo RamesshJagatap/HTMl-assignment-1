@@ -1,0 +1,44 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1oovh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: flex;
+    box-shadow: 0 50px 75px rgba(0,0,0,1) ;
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+
+
+
+}
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding bottom: 0;
+
+}
+
+.container.top.profileText{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.container .contentBox{
+    position: relative;
+    min-height: 500px;
+}
